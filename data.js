@@ -209,7 +209,7 @@ function createHeart() {
 			async function menuju(){
 			  if(fungsi==2){
 			    await swals.fire('Kirim pesan ke WhatsApp aku, ya!');
-			    window.location = "https://wa.me/6283126163403?text=iya%20aku%20mau%20jadi%20pacar%20kamu..";
+			    window.location = "https://wa.me/6283100519061?text=iya%20aku%20mau%20jadi%20pacar%20kamu..";
 			  }}
 
       async function mulaitanya(){
@@ -233,7 +233,7 @@ function createHeart() {
 
             async function mulai(){
                 var { value: nama } = await swals.fire({
-                    title: 'hai, aku indra, nama kamu siapa ?', 
+                    title: ' nama kamu siapa ?', 
                     input: 'text',
                     imageUrl: 'assets/img/khotib.png', 
                     imageWidth: 150, 
