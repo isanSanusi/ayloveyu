@@ -209,7 +209,7 @@ function createHeart() {
 			async function menuju(){
 			  if(fungsi==2){
 			    await swals.fire('Kirim pesan ke WhatsApp aku, ya!');
-			    window.location = "https://api.whatsapp.com/send/?phone=83126163403&text=iya20%aku20%mau20%jadi20%pacar20%kamu&type=phone_number&app_absent=0";
+			    window.location = "https://api.whatsapp.com/send?phone=6283126163403&text=iya20%aku20%mau20%jadi20%pacar20%kamu&type=phone_number&app_absent=0";
 			  }}
 
       async function mulaitanya(){
