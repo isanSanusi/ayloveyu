@@ -209,7 +209,7 @@ function createHeart() {
 			async function menuju(){
 			  if(fungsi==2){
 			    await swals.fire('Kirim pesan ke WhatsApp aku, ya!');
-			    window.location = "https://api.whatsapp.com/send/?phone=+6283100519061&text&type=phone_number&app_absent=0" + pesanwhatsapp;
+			    window.location = "https://api.whatsapp.com/send/?phone=6283100519061&text&type=phone_number&app_absent=0" + pesanwhatsapp;
 			  }}
 
       async function mulaitanya(){
